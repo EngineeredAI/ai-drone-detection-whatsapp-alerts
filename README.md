@@ -22,7 +22,7 @@ When a drone is detected, the system:
 
 ### 🧠 Object Detection Engine
 
-Built on YOLOv5 (Ultralytics)
+Built on YOLOv5 (Ultralytics) Uses Python 3.8.x
 
 -   Custom-trained drone detection model (`drone2.pt`)
 -   Optimized inference pipeline
@@ -76,9 +76,30 @@ WhatsApp Alert
 ## ⚙ Installation
 
 ``` bash
+
+**1. Python Installation**
+Download and install Python 3.8
+
+**2. Download the repo**
 git clone https://github.com/EngineerAI/ai-drone-detection-whatsapp-alerts.git
+
+**3. Change Directory**
 cd ai-drone-detection-whatsapp-alerts
+
+**4. Install the dependencies**
 pip install -r requirements.txt
+
+**FOR GPU users**
+
+5. Install torch with version "torchvision-0.9.1+cu111-cp38-cp38-win_amd64.whl"
+6. Install pytorch with version "torch-1.8.1+cu111-cp38-cp38-win_amd64.whl"
+
+**FOR CPU USERS**
+
+7. **Normal Install using pip**
+pip instal torch==1.8.0
+pip install torchvision=0.9.1
+
 ```
 
 ------------------------------------------------------------------------
