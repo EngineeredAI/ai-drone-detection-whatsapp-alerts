@@ -126,23 +126,32 @@ pip install torchvision=0.9.1
 Create `.env` file using `.env.example` template.
 
 
-SMTP_USER=your_email@gmail.com \n
+SMTP_USER=your_email@gmail.com
+
 SMTP_PASS=your_16_digit_app_password
 
 TWILIO_SID=ACxxxxxxxxxxxxxxxxxxxxxxxx      # For setting up SMS alerts
+
 TWILIO_AUTH=your_auth_token
+
 TWILIO_FROM=+1xxxxxxxxxx
+
 TWILIO_TO=+91xxxxxxxxxx
 
 #1. First Login to Whatsapp Web using your deafult browser
+
 #2. Then create a Group and note its ID as mentioned 
+
 #3. Your Gp ID is  the part ahead of https://chat.whatsapp.com/  that is -> "XXXXXXXXXXXXX"
+
 #4. Copy "XXXXXXXXXXXXXXX" into value ahead of WHATSAPP_GROUP_ID
 
 WHATSAPP_GROUP_ID=XXXXXXXXXXXXXXXXXXXX
 
 OWNER_LAT=18.000000     # Camera's Latitude
+
 OWNER_LON=65.000000     # Camera's Longitiude1
+
 DEGREES=180             # Camera's Orientation with respect to North 0 degrees
 
 
