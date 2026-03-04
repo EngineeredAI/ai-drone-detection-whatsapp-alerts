@@ -17,6 +17,21 @@ When a drone is detected, the system:
 -   📸 Sends WhatsApp group alert with geolocation
 
 ------------------------------------------------------------------------
+# 🚁 Drone Detection & Alert System
+
+<p align="center">
+  <img src="assets/DetDrone.jpg" width="650">
+</p>
+
+---
+
+## 📊 System Workflow
+
+<p align="center">
+  <img src="assets/Workflow.png" width="750">
+</p>
+
+
 
 ## 🚀 Core Technology Stack
 
